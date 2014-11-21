@@ -5,9 +5,9 @@ Note: This is practically the same as [votiepi-app](https://github.com/Teodors/v
 
 ### Getting started
 You will need [ionic](http://ionicframework.com/) installed and [node](http://nodejs.org/) installed.
- 1. Create app with 'ionic start myApp blank'. 
- 2. Run 'ionic add platform android' to create android app or replace with ios for iphone (not tested). 
- 3. Replace contents of 'www' directory with this repository.
+ 1. Create app with `ionic start myApp blank`. 
+ 2. Run `ionic add platform android` to create android app or replace with ios for iphone (not tested). 
+ 3. Replace contents of `www` directory with this repository.
  4. (Optionally) add description in `config.xml` or change app icon in `platforms\android\res`.
  5. Run app with `ionic run android`. If you have your phone plugged in with all drivers installed it will run on phone, else it will run on virtual machine.
 
