@@ -1,0 +1,61 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" value=\"com.ionic.keyboard.IonicKeyboard\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NativeAudio\"><param name=\"android-package\" value=\"de.neofonie.cordova.plugin.nativeaudio.NativeAudio\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission name=\"android.permission.READ_PHONE_STATE\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.votepimobile763399"
+        },
+        "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.ionicframework.votepimobile763399"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.ionicframework.votepimobile763399"
+        },
+        "de.neofonie.cordova.plugin.nativeaudio": {
+            "PACKAGE_NAME": "com.ionicframework.votepimobile763399"
+        }
+    },
+    "dependent_plugins": {}
+}
