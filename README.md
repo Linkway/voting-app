@@ -6,7 +6,9 @@ Note: This is practically the same as [votiepi-app](https://github.com/Teodors/v
 ### Getting started
 You will need [ionic](http://ionicframework.com/) installed and [node](http://nodejs.org/) installed.
 
-Run `npm install` to add dependencies. Start app with `ionic run android`. If you have your phone plugged in with all drivers installed it will run on phone, else it will run on virtual machine.
+ 1. Run `npm install` to add dependencies. 
+ 2. Start gulp.lnk or run `gulp` to build CSS.
+ 2. Start app with `ionic run android`. If you have your phone plugged in with all drivers installed it will run on phone, else it will run on virtual machine.
 
 Note: This is currently built for android, however, if you are on Mac run `ionic platform add ios` to run on iOS.
 
